@@ -21,6 +21,7 @@ namespace poligon2026310a
             vektor OB = new vektor(B);
             vektor AC = new vektor(A, C);
             Console.WriteLine(vektor.SP(OA, OB));
+            Console.WriteLine(vektor.VP(OA, AC));
             Console.ReadKey();
         }
     }

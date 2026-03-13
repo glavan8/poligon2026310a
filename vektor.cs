@@ -40,5 +40,6 @@ namespace poligon2026310a
             double k = A.x * B.y + A.y * B.x ;
             return k;
         }
+
     }
 }
