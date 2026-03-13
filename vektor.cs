@@ -27,9 +27,18 @@ namespace poligon2026310a
             double y = kraj.y - pocetak.y;
             return new tacka(x, y);
         }
-        public double SP(vektor a, vektor b)
+        static public double SP(vektor a, vektor b)
         {
-            return 0;
+            tacka A = a.centriraj();
+            tacka B = b.centriraj();
+            return A.x*B.x + A.y*B.y;
+        }
+        static public double VP(vektor a, vektor b)
+        {
+            tacka A = a.centriraj();
+            tacka B = b.centriraj();
+            double k = A.x * B.y + A.y * B.x ;
+            return k;
         }
     }
 }
