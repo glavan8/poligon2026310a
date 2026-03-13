@@ -11,8 +11,10 @@ namespace poligon2026310a
         static void Main(string[] args)
         {
             //Mihajlo Glavan
-            Console.WriteLine("Pozdrav za 3-10");
-            Console.WriteLine("OPET");
+            tacka a = new tacka(1, 1);
+            Console.WriteLine(a.ugao());
+            Console.WriteLine(a.d());
+            Console.ReadKey();
         }
     }
 }
