@@ -11,7 +11,7 @@ namespace poligon2026310a
         static void Main(string[] args)
         {
             //Mihajlo Glavan
-            tacka a = new tacka(1, 1);
+            /*tacka a = new tacka(1, 1);
             Console.WriteLine(a.ugao());
             Console.WriteLine(a.d());
             tacka A = new tacka(3, 1);
@@ -22,6 +22,14 @@ namespace poligon2026310a
             vektor AC = new vektor(A, C);
             Console.WriteLine(vektor.SP(OA, OB));
             Console.WriteLine(vektor.VP(OA, AC));
+            Console.ReadKey();
+            */
+            tacka A = new tacka(1, 2);
+            tacka B = new tacka(3, 2);
+            tacka C = new tacka(2, 3);
+            tacka D = new tacka(2, 2);
+            vektor AB = new vektor(A, B);
+            Console.WriteLine(ravan.SIS(AB, C, D));
             Console.ReadKey();
         }
     }
