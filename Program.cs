@@ -11,6 +11,7 @@ namespace poligon2026310a
         static void Main(string[] args)
         {
             //Mihajlo Glavan
+            Console.WriteLine("Pozdrav za 3-10");
         }
     }
 }
