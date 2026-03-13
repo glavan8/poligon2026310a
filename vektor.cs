@@ -8,8 +8,8 @@ namespace poligon2026310a
 {
     internal class vektor
     {
-        tacka pocetak;
-        tacka kraj;
+        public tacka pocetak;
+        public tacka kraj;
         public vektor(tacka A, tacka B) 
         {
             pocetak = A;
